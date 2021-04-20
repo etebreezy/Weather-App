@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="body-div">
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src="06_1596083776.mp4" type="video/mp4"> 
+            </video>
+        </div>
+       
+        <div class="container">
+            <!-- Main Body -->
+            <div class="main-body">
+
+                <!-- Left Div -->
+                <div class="left-div">
+                    <h1>Weather App</h1>
+                    <h3>Search by city for weather</h3>
+                    <p class="search-again">Click to Search Again</p>
+                </div>
+
+                <!-- Right Div -->
+                <div class="right-div">
+
+                    <!-- form Div -->
+                    <div class="form-div">
+                        <form id="form" action="">
+                            <input type="text" name="search-keywords" id="search-keywords" placeholder="City Name">
+                            <input class="search" id="submit-button" type="submit" value="Search">
+                        </form>
+                    </div>
+
+                    <!-- Weather Div -->
+                    <div class="weather-div">
+                        <!-- section 1 -->
+                        <div class="section-1">
+                            <div class="current-div">
+                                <img class="current-icon" src="weather+icon-1320087273185061618.png" alt="weather icon">
+                            </div>
+                            <div class="current">
+                                <h2>Current Weather</h2>
+                            </div>
+                            
+                        </div>
+
+                        <!-- section-2 -->
+                        <div class="section-2">
+                            <div class="location-div">
+                                <div class="location">
+                                    <h1 class="city"></h1>
+                                </div>
+                                <div class="location-image">
+                                    <img class="country-image" src="" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- section-3 -->
+                        <div class="section-3">
+                            <div class="temperature-div">
+                                <div class="Current-temperature">
+                                    <h1 class="temperature"></h1>
+                                </div>
+                                <div class="temperature-image">
+                                    <img class="weather-image" src="" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- section 4 -->
+                        <div class="section-4">
+                            <p class="weather-info-1"></p>
+                            <p class="weather-info-2"></p>
+                        </div>
+
+                        <!-- section 5 -->
+                        <div class="section-5">
+                            <p class="region"></p>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+            </div>
+            
+            <!-- Footer Section -->
+            <div class="footer-section">
+                <div class="footer-div">
+                    <p>Sponsor:</p>
+                    <div class="juno-div">
+                    <a href="https://junocollege.com/" target="blank"><img class="juno" src="Juno college.svg" alt="junocollege"></a>   
+                    </div>
+                    <p>&copy; 2021 EU. All rights reserved</p>
+                </div>        
+            </div>
+        </div>
+        
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
